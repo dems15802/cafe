@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <!--    <meta name="viewport" content="width =device-width,initial-scale=1.0">-->
+    <title>국내 매장 위치</title>
+    <link rel="icon" sizes="16x16" type="image/gif" href="img/logo.gif">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/store.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <a href="#" id="gomain">본문바로가기</a>
+        <header>
+            <div class="header-inner cf">
+                <h1><a href="hollys_main.html"><span class="hidden">logo</span><img src="img/logo.gif" alt=""></a></h1>
+                <div class="right_nav">
+                    <ul class="tnb cf">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">가입</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">ENG</a></li>
+                        <li><a href="#">中文</a></li>
+                    </ul>
+                    <nav class="gnb">
+                        <ul class="cf">
+                            <li class="hover">
+                                <a href="#"><span>Menu</span></a>
+                                <ul>
+                                    <li><a href="#">New Menu</a></li>
+                                    <li><a href="#">음료</a></li>
+                                    <li><a href="#">디저트</a></li>
+                                    <li><a href="#">MD</a></li>
+                                    <li><a href="#">선물</a></li>
+                                </ul>
+                            </li>
+                            <li class="hover">
+                                <a href="#"><span>Membership</span></a>
+                                <ul>
+                                    <li><a href="#">스마트오더 서비스안내</a></li>
+                                    <li><a href="#">혜택안내</a></li>
+                                </ul>
+                            </li>
+                            <li class="hover">
+                                <a href="#"><span>HOLLYS News</span></a>
+                                <ul>
+                                    <li><a href="#">Notice</a></li>
+                                    <li><a href="#">Event</a></li>
+                                </ul>
+                            </li>
+                            <li class="hover">
+                                <a href="store.html"><span>HOLLYS Store</span></a>
+                                <ul>
+                                    <li><a href="store.html">국내</a></li>
+                                    <li><a href="academy.html">아카데미</a></li>
+                                </ul>
+                            </li>
+                            <li class="hover">
+                                <a href="#"><span>HOLLS is</span></a>
+                                <ul>
+                                    <li><a href="#">Brand Story</a></li>
+                                    <li><a href="#">About Coffee</a></li>
+                                    <li><a href="#">CSR</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">채용 안내</a></li>
+                                    <li><a href="#">가맹 안내</a></li>
+                                    <li><a href="#">B2B 사업 소개</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="menubtn_area">
+            <ul class="cf">
+                <li class="on"><a href="store.html">국내</a></li>
+                <li><a href="academy.html">아카데미</a></li>
+            </ul>
+        </div>
+        <main>
+            <div class="map_area">
+                <div id="map"></div>
+                <p>
+                    <em class="link">
+                        <a href="javascript:void(0);" onclick="window.open('http://fiy.daum.net/fiy/map/CsGeneral.daum', '_blank', 'width=981, height=650')">
+                            혹시 주소 결과가 잘못 나오는 경우에는 여기에 제보해주세요.
+                        </a>
+                    </em>
+                </p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>지역</th>
+                        <th>매장명</th>
+                        <th>주소</th>
+                        <th>전화번호</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>강원 양양군</td>
+                        <td class="storeName">낙산해수욕장점</td>
+                        <td class="storeAddress">강원도 양양군 강현면 해맞이길 18</td>
+                        <td>033-672-7271</td>
+                    </tr>
+                    <tr>
+                        <td>경기 안산시 상록구</td>
+                        <td class="storeName">안산한대앞점</td>
+                        <td class="storeAddress">경기도 안산시 상록구 중보로 31 (이동, 썬프라자)</td>
+                        <td>031-419-2131</td>
+                    </tr>
+                    <tr>
+                        <td>서울 서초구</td>
+                        <td class="storeName">교대역점</td>
+                        <td class="storeAddress">서울특별시 서초구 반포대로30길 81 (서초동, 웅진타워) 1층</td>
+                        <td>02-587-8944</td>
+                    </tr>
+                    <tr>
+                        <td>서울 구로구</td>
+                        <td class="storeName">오류동역점</td>
+                        <td class="storeAddress">서울시 구로구 경인로 224 오류동59-20번지 외2필지, 1층</td>
+                        <td>02-6405-3800</td>
+                    </tr>
+                    <tr>
+                        <td>경기 시흥시</td>
+                        <td class="storeName">스틸랜드점</td>
+                        <td class="storeAddress">경기도 시흥시 오이도로 21 (정왕동, STEELLAND) SB센터 1층</td>
+                        <td>031-8041-4599</td>
+                    </tr>
+                    <tr>
+                        <td>경기 남양주시 </td>
+                        <td class="storeName">다산센트럴점</td>
+                        <td class="storeAddress">경기도 남양주시 다산중앙로 105-14 (다산동) 웅신미켈란오피스텔 104,105,106호</td>
+                        <td>070-8670-1240</td>
+                    </tr>
+                    <tr>
+                        <td>강원 인제군</td>
+                        <td class="storeName">인제점</td>
+                        <td class="storeAddress">강원도 인제군 인제읍 인제로 198 </td>
+                        <td>033-461-7767</td>
+                    </tr>
+                    <tr>
+                        <td>대전 동구</td>
+                        <td class="storeName">가오CGV점</td>
+                        <td class="storeAddress">대전광역시 동구 은어송로 72 (가오동, 패션아일랜드)</td>
+                        <td>042-273-7400</td>
+                    </tr>
+                    <tr>
+                        <td>충북 청주시 서원구</td>
+                        <td class="storeName">청주분평점</td>
+                        <td class="storeAddress">충청북도 청주시 서원구 월평로 4 분평동 1226, 대상탑존빌딩 111호</td>
+                        <td>043-292-5105</td>
+                    </tr>
+                    <tr>
+                        <td>서울 성북구</td>
+                        <td class="storeName">안암오거리점</td>
+                        <td class="storeAddress">서울특별시 성북구 고려대로24길 56 2층</td>
+                        <td>02-924-3339</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagenation">
+                <a href="javascript:;" class="pageBtn prevBtn"><i class="fas fa-chevron-left"></i></a>
+                <a href="javascript:;" class="pageNum on">1</a>
+                <a href="javascript:;" class="pageNum">2</a>
+                <a href="javascript:;" class="pageNum">3</a>
+                <a href="javascript:;" class="pageNum">4</a>
+                <a href="javascript:;" class="pageNum">5</a>
+                <a href="javascript:;" class="pageNum">6</a>
+                <a href="javascript:;" class="pageNum">7</a>
+                <a href="javascript:;" class="pageNum">8</a>
+                <a href="javascript:;" class="pageNum">9</a>
+                <a href="javascript:;" class="pageNum">10</a>
+                <a href="javascript:;" class="pageBtn nextBtn"><i class="fas fa-chevron-right"></i></a>
+            </div>
+
+        </main>
+
+
+
+
+
+
+
+    </div>
+    <script src="js/menu.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cb6c2a86255a996cce821166f4d1a4d9&libraries=services"></script>
+    <script src="js/store.js"></script>
+    <script src="js/pagenation.js"></script>
+</body></html>

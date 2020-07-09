@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*reset*/
+html,body,div,ul,ol,li,dl,dt,dd,p,address,h1,h2,h3,h4,h5,h6,blockquote,table,tr,th,td,caption,form,fieldset,legend,header,article,nav,section,main,footer,figure,aside{margin: 0;padding: 0;}/*블럭요소만 없어야하므로 아는것 모두 적기*/
+ul,ol{list-style: none;}
+a{text-decoration: none;color: inherit;}
+a img{border:0;} /*익스플로러 9 이하에서 생기는 문제 없애기 위해*/
+h1,h2,h3,h4,h5,h6{font-weight: normal;}/*대부분경우에 쓰지만 옵션*/
+i,em,address,cite{font-style: normal;}/*기본 이탤릭이라 기본으로 바꾸기 사이트는 출처표기 태그*/
+table{border-collapse: collapse;}/*셀패딩없애기*/
+form fieldset{border: 0;}/*그룹끼리 묶이도록*/
+caption,figcaption{font-size: 0; line-height: 0; height: 0; overflow: hidden; text-indent: -9999px;} /*display:none은 웹접근성적인 측면에서 안됨 figcaption은 figure에 있는것*/
+/*float 해제*/
+.cf:before, .cf:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
