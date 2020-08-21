@@ -1,0 +1,95 @@
+@charset "utf-8";
+@import url(header.css);
+
+.menubtn_area{
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto 50px;
+    background: /*linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),*/ url(../img/store.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+.menubtn_area:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: inherit;
+    filter: blur(2px);
+    z-index: -1;
+}
+.menubtn_area ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menubtn_area li{
+    float: left;
+    width: 200px;
+    margin-right: 100px;
+}
+.menubtn_area li:last-child{margin-right: 0;}
+.menubtn_area li a{
+    display: block;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.menubtn_area li.on a{
+    color: #ba000c;
+    background: #fff;
+}
+.menubtn_area li a:hover{
+    color: #ba000c;
+    background: #fff;
+}
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 50px;
+}
+
+#map{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.map_area > p{
+    margin-bottom: 50px;
+    text-align: right;
+    font-size: 13px;
+}
+
+table{width: 100%;}
+tr{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    color: #444;
+}
+th, td{padding: 5px 0;}
+
+tbody > tr{cursor: pointer; transition: all 0.5s;}
+tbody > tr:hover{
+    background: #ba000c;
+    color: #fff;
+}
+
+.pagenation{margin-top: 30px; text-align: center;}
+.pagenation a{display: inline-block; margin-right: 10px;}
+.pagenation a:last-child{margin-right: 0;}
+.pagenation a.on, .pagenation a:hover{color: #ba000c;}
+
+
+
+
+
